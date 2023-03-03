@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live : [Add live site URL here](https://your-live-site-url.com)
+- Live : [https://c-costin.github.io/stats-preview-card-component/](https://c-costin.github.io/stats-preview-card-component/)
 - Repo Github : [https://github.com/c-costin/stats-preview-card-component](https://github.com/c-costin/stats-preview-card-component)
 
 ## My process
