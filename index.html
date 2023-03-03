@@ -5,17 +5,48 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous">
+        <link href="https://fonts.bunny.net/css?family=inter:400,700" rel="stylesheet" crossorigin="anonymous">
+        <link href="https://fonts.bunny.net/css?family=lexend-deca:400" rel="stylesheet" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Document</title>
+        <title>Frontend Mentor | Stats preview card component</title>
     </head>
 
     <body class="body">
         <main class="main">
+            <section class="stats">
+                <picture class="stats__picture">
+                    <source media="(min-width: 540px)" srcset="./assets/images/image-header-desktop.jpg">
+                    <img class="stats__img" src="./assets/images/image-header-mobile.jpg" alt="">
+                </picture>
+                <div class="stats__container">
+                    <h1 class="stats__title">
+                        Get <span class="stats__title-mark">insights</span> that help your business grow.
+                    </h1>
+                    <p class="stats__desc">
+                        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+                    </p>
+                    <ul class="stats__list">
+                        <li class="stats__detail">
+                            <span class="stats__score">10k+</span>
+                            companies
+                        </li>
+                        <li class="stats__detail">
+                            <span class="stats__score">314</span>
+                            templates
+                        </li>
+                        <li class="stats__detail">
+                            <span class="stats__score">12M+</span>
+                            queries
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </main>
         <footer class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="https://costincadeau.fr">Costin Cadeau</a>.
+            Challenge by <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+            Coded by <a href="https://costincadeau.fr" target="_blank" rel="noopener noreferrer">Costin Cadeau</a>.
         </footer>
     </body>
 </html>
